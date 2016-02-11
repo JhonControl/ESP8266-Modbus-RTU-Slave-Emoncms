@@ -10,3 +10,7 @@ ESP8266 settings Modbus RTU slave and sending data Emoncms
 3- reading data is performed
 
 4-It sends data via JSON to Emoncms platform from the ESP8266 module
+
+
+
+Se realiza envio de valor leido de maestro Modbus RTU hacia plataforma Emoncms. 
