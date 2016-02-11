@@ -97,12 +97,14 @@ void loop()
        conta++;   
      delay(1000);
      
-
+    // Read Holding Register  address  100 = 40100
      float valor = regBank.get(40100);
-
+    // convert float to char 
     char outstr1[15];
     dtostrf(valor,4, 2, outstr1);   //float to char  4 numero de caracteres  3 cifras sin espacio
     String cadena = outstr1;   // char to string
+    
+    // send to emoncms
     String url = "/emoncms/input/post.json?json={ESP8266_Modbus_Slave:"+ cadena +"}&apikey="+apikey;
 
      client.print(String("GET ") + url + " HTTP/1.1\r\n" +
