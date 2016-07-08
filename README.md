@@ -1,7 +1,5 @@
-ESP8266-Modbus-RTU-Slave-Emoncms
 
-
-ESP8266 settings Modbus RTU slave and sending data Emoncms
+#ESP8266 settings Modbus RTU slave and sending data Emoncms
 
 1- simulator set to configure Modbus RTU Master
 
@@ -11,6 +9,21 @@ ESP8266 settings Modbus RTU slave and sending data Emoncms
 
 4-It sends data via JSON to Emoncms platform from the ESP8266 module
 
+# More Project - Mas Proyectos
+
+Welcome to this space learning automation technology applied to industry and  everyday life.
+If you like electronics, home automation, automation, programming, PLC, microcontrollers, 
+Arduino, Python, Open source .... my blog will be a great help ... 
+if you need help and information do not hesitate to consult.
+
+Blog PDAControl English   http://pdacontrolenglish.blogspot.com.co/   
+
+Blog PDAControl Español   http://pdacontrol.blogspot.com.co/
+
+Channel  Youtube          https://www.youtube.com/c/JhonValenciaPDAcontrol/videos  
+  
+Twitter Spanish           https://twitter.com/PDAControl
+
+Twitter Enghish:          https://twitter.com/Jhon_Control
 
 
-Se realiza envio de valor leido de maestro Modbus RTU hacia plataforma Emoncms. 
